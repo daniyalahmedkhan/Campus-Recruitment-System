@@ -12,9 +12,16 @@ public class ModelClass {
     public String cgpa;
     public String age;
     public String bio;
+
+  ///////////type for activity//////////
     public String type;
 
-   ///////////////////////////
+   /////////////Company Data//////////////
+
+    public String compName;
+    public String compAdd;
+    public String compAbout;
+  /////////////////////////////
 
     public ModelClass(){}
 
@@ -27,4 +34,10 @@ public class ModelClass {
         this.type = type;
     }
 
+    public ModelClass(String compName, String compAdd, String compAbout , String type) {
+        this.compName = compName;
+        this.compAdd = compAdd;
+        this.compAbout = compAbout;
+        this.type = type;
+    }
 }

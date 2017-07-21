@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.daniyal.project1_a">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".DecideActivity" />
-        <activity android:name=".StudentActivity"></activity>
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".CompanyActivity"></activity>
     </application>
 
 </manifest>

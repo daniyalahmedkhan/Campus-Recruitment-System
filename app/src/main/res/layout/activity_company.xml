@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.daniyal.project1_a.CompanyActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Panacloud Office etc"
+            android:layout_marginTop="10dp"
+            android:id="@+id/EditCompName"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Address"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Kahyaban-e-Shamsheer ..etc"
+            android:layout_marginTop="10dp"
+            android:id="@+id/EditCompAdd"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Company"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/EditCompBio"
+            android:layout_width="351dp"
+            android:layout_height="150dp"
+            android:hint="We work on mobile apps technology"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Data"
+        android:id="@+id/BtnCompSubmit"
+        />
+
+</LinearLayout>
